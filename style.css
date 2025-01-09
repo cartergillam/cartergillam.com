@@ -171,9 +171,7 @@ section {
   height: 80vh;
 }
 #profile1{
-  border-radius: 50%;
-  /* width: 23rem;
-  height: 23rem; */
+  border-radius: 20%;
 }
 
 .section__pic-container {
