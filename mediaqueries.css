@@ -159,3 +159,42 @@
     }
   
   }
+
+  /* Profile picture fills the screen width on mobile */
+  @media (max-width: 768px) {
+      #profile1 {
+          width: 100%;
+          height: auto;
+      }
+  
+      /* Reduce margin and padding for the "About Me" section */
+      #about .section-container {
+          margin: 0 1rem;
+          padding: 1rem;
+      }
+  
+      /* Stack "Frontend Development" and "Development Tools & Softwares" sections on top of each other */
+      #experience .about-containers {
+          flex-direction: column;
+      }
+  
+      /* Adjust section padding and height */
+      section {
+          padding-top: 2vh;
+          height: auto;
+          margin: 0 1rem;
+      }
+  
+      /* Adjust text alignment and font size */
+      .section__text {
+          text-align: left;
+      }
+  
+      .title {
+          font-size: 2rem;
+      }
+  
+      .section__text__p2 {
+          font-size: 1.5rem;
+      }
+  }
