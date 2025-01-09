@@ -171,7 +171,10 @@ section {
   height: 80vh;
 }
 #profile1{
-  border-radius: 20%;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .section__pic-container {
