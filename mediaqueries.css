@@ -163,8 +163,10 @@
   /* Profile picture fills the screen width on mobile */
   @media (max-width: 768px) {
       #profile1 {
-          width: 100%;
+          width: 50%;
           height: auto;
+          margin: 0 auto;
+          display: block;
       }
   
       /* Reduce margin and padding for the "About Me" section */
