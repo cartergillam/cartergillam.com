@@ -258,19 +258,22 @@ section {
 }
 
 .btn {
-  background-color: transparent;
-  color: #333;
-  border: 2px solid #333;
-  border-radius: 2rem;
-  padding: 0.5rem 1.5rem;
-  transition: background-color 0.3s, box-shadow 0.3s;
+  background-color: transparent; /* Ensure no unwanted background color */
+  color: #333; /* Text color */
+  border: 2px solid #333; /* Border color */
+  border-radius: 2rem; /* Optional rounded corners */
+  padding: 0.5rem 1.5rem; /* Adjust padding */
+  box-shadow: none; /* Remove any shadow effects */
+  transition: background-color 0.3s, transform 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #333;
-  color: #fff;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Optional scale effect */
+  box-shadow: none; /* Ensure no shadow on hover */
 }
+
 
 
 a .btn {
