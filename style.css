@@ -31,8 +31,7 @@ p {
 
 a,
 .btn {
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 /* DESKTOP NAV */
@@ -216,6 +215,7 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 .title {
