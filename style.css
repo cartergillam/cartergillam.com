@@ -394,7 +394,7 @@ a .btn {
   flex-direction: column;
 }
 
-.experience-video {
+.project-video {
   position: relative;
   padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
   height: 0; /* Ensure the height is derived from the ratio */
@@ -404,7 +404,7 @@ a .btn {
 }
 
 
-.experience-video iframe {
+.project-video iframe {
   position: absolute;
   top: 0;
   left: 0;
