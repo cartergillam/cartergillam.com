@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body, html {
+  max-width: 100%; /* Prevent elements from exceeding the viewport width */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
 body {
   font-family: "Poppins", sans-serif;
    overflow-x: hidden;
@@ -387,6 +392,14 @@ a .btn {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.experience-video iframe{
+  width: 100%; /* Ensure the video fills the container */
+    max-width: 100%; /* Prevent it from exceeding the container's size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper block-level layout */
+    margin: 0 auto; /* Center the video horizontally */
 }
 
 .article-container {

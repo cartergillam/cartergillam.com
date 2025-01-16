@@ -186,17 +186,23 @@
           height: auto;
           margin: 0 1rem;
       }
-  
-      /* Adjust text alignment and font size */
-      .section__text {
-          text-align: left;
+
+      .experience-video iframe {
+        width: 100%; /* Make the video responsive on mobile */
+        height: auto; /* Maintain aspect ratio */
       }
   
       .title {
           font-size: 2rem;
       }
-  
-      .section__text__p2 {
-          font-size: 1.5rem;
-      }
+
+      #profile .section__text {
+        text-align: center; /* Ensure center alignment */
+        margin: 0 auto; /* Center the entire text block */
+    }
+
+    .section__text__p2 {
+        text-align: center; /* Center the "Software Developer" text */
+        margin: 0 auto; /* Adjust spacing */
+    }
   }
