@@ -394,12 +394,23 @@ a .btn {
   flex-direction: column;
 }
 
-.experience-video iframe{
-  width: 100%; /* Ensure the video fills the container */
-    max-width: 100%; /* Prevent it from exceeding the container's size */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure proper block-level layout */
-    margin: 0 auto; /* Center the video horizontally */
+.experience-video {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+  height: 0; /* Ensure the height is derived from the ratio */
+  overflow: hidden; /* Prevent content overflow */
+  max-width: 100%; /* Limit width to the parent container */
+  margin: 0 auto; /* Center the video container */
+}
+
+
+.experience-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make iframe responsive to its container */
+  height: 100%; /* Maintain aspect ratio */
+  border: none; /* Remove unnecessary borders */
 }
 
 .article-container {
