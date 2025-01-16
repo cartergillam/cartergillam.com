@@ -161,13 +161,7 @@
   }
 
   /* Profile picture fills the screen width on mobile */
-  @media (max-width: 768px) {
-      #profile1 {
-          width: 50%;
-          height: auto;
-          margin: 0 auto;
-          display: block;
-      }
+  @media screen and (max-width: 768px) {
   
       /* Reduce margin and padding for the "About Me" section */
       #about .section-container {
@@ -186,15 +180,21 @@
           height: auto;
           margin: 0 1rem;
       }
-
+      
       .project-video {
-        padding-bottom: 56.25%; /* Maintain 16:9 ratio */
+          padding-bottom: 56.25%; /* Maintain aspect ratio */
+          max-width: 100%; /* Ensure it doesn't exceed the screen width */
       }
-
+  
       .project-video iframe {
           width: 100%;
           height: 100%;
       }
+      
+      #profile1 {
+        width: 150px; /* Adjust size for smaller screens */
+        height: 150px; /* Maintain circular shape */
+    }
   
       .title {
           font-size: 2rem;
