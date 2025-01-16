@@ -193,8 +193,8 @@ section {
 
 #profile1 {
   border-radius: 50%; /* Make it circular */
-  width: 200px; /* Ensure equal width and height */
-  height: 200px; /* Maintain equal dimensions */
+  width: 400px; /* Ensure equal width and height */
+  height: 400px; /* Maintain equal dimensions */
   object-fit: cover; /* Prevent distortion */
   margin: 0 auto; /* Center the profile picture */
   display: block; /* Ensure proper block layout */

@@ -192,8 +192,8 @@
       }
       
       #profile1 {
-        width: 150px; /* Adjust size for smaller screens */
-        height: 150px; /* Maintain circular shape */
+        width: 200px; /* Adjust size for smaller screens */
+        height: 200px; /* Maintain circular shape */
     }
   
       .title {
