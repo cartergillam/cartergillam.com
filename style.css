@@ -582,35 +582,6 @@ footer p {
   color: aliceblue;
 }
 
-/* Dark Mode */
-body.dark-mode {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-a.dark-mode, .btn.dark-mode {
-  color: #e0e0e0;
-}
-
-.nav-links li a.dark-mode:hover {
-  color: #1e90ff;
-  text-decoration-color: #1e90ff;
-}
-
-.icon.dark-mode {
-  filter: invert(1);
-}
-
-.btn.dark-mode {
-  background-color: #333;
-  color: #e0e0e0;
-  border-color: #e0e0e0;
-}
-
-.btn.dark-mode:hover {
-  background-color: #555;
-  color: #fff;
-}
 
 /* Animations */
 .fade-in {
