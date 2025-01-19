@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
+      height: auto;
       margin-bottom: 6rem;
     }
   
@@ -64,17 +64,14 @@
   }
   
   @media screen and (max-width: 600px) {
-  
-    /* body{
-      background-color: aqua;
-    } */
     #contact,
     footer {
-      height: 40vh;
+      height: auto;
+      padding: 2rem 0;
     }
   
     #profile {
-      height: 83vh;
+      height: auto;
       margin-bottom: 0;
     }
   
@@ -91,7 +88,6 @@
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
-  
     }
   
     .contact-info-container {
@@ -123,11 +119,6 @@
       justify-content: center;
     }
   
-    /* .section__pic-container {
-      width: 300px;
-      height: 300px;
-      margin: 0 auto 2rem;
-    } */
     .section__text__p2 {
       font-size: 1.25rem;
     }
@@ -138,8 +129,6 @@
   
     .title {
       font-size: 2rem;
-      /* margin-bottom: 15rem; */
-      /* margin-top: 4rem; */
     }
   
     #aboutTitle {
@@ -150,31 +139,23 @@
       text-align: justify;
       margin: none;
       padding: 0;
-      /* width: 90vw; */
-  
     }
   
     #projects {
       margin-bottom: 1rem;
     }
-  
   }
 
-  /* Profile picture fills the screen width on mobile */
   @media screen and (max-width: 768px) {
-  
-      /* Reduce margin and padding for the "About Me" section */
       #about .section-container {
           margin: 0 1rem;
           padding: 1rem;
       }
   
-      /* Stack "Frontend Development" and "Development Tools & Softwares" sections on top of each other */
       #experience .about-containers {
           flex-direction: column;
       }
   
-      /* Adjust section padding and height */
       section {
           padding-top: 2vh;
           height: auto;
@@ -182,8 +163,8 @@
       }
       
       .project-video {
-          padding-bottom: 56.25%; /* Maintain aspect ratio */
-          max-width: 100%; /* Ensure it doesn't exceed the screen width */
+          padding-bottom: 56.25%;
+          max-width: 100%;
       }
   
       .project-video iframe {
@@ -192,8 +173,8 @@
       }
       
       #profile1 {
-        width: 200px; /* Adjust size for smaller screens */
-        height: 200px; /* Maintain circular shape */
+        width: 200px;
+        height: 200px;
     }
   
       .title {
@@ -201,12 +182,12 @@
       }
 
       #profile .section__text {
-        text-align: center; /* Ensure center alignment */
-        margin: 0 auto; /* Center the entire text block */
+        text-align: center;
+        margin: 0 auto;
     }
 
     .section__text__p2 {
-        text-align: center; /* Center the "Software Developer" text */
-        margin: 0 auto; /* Adjust spacing */
+        text-align: center;
+        margin: 0 auto;
     }
   }

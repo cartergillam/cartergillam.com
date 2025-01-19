@@ -171,8 +171,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 1vh;
-  height: 96vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -180,21 +180,25 @@ section {
 
 .section-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 /* PROFILE SECTION */
 
 #profile {
   display: flex;
-  justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+  padding: 2rem 0;
 }
 
 #profile1 {
   border-radius: 50%; /* Make it circular */
-  width: 400px; /* Ensure equal width and height */
-  height: 400px; /* Maintain equal dimensions */
+  width: 300px; /* Ensure equal width and height */
+  height: 300px; /* Maintain equal dimensions */
   object-fit: cover; /* Prevent distortion */
   margin: 0 auto; /* Center the profile picture */
   display: block; /* Ensure proper block layout */
@@ -203,14 +207,17 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
 
 .section__text {
   align-self: center;
   text-align: center;
+  margin: 0 auto;
 }
 
 .section__text p {
@@ -224,15 +231,14 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  justify-content: center;
+  text-align: center;
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
   opacity: .92;
-  /* margin-bottom: 2rem; */
-
+  margin-bottom: 2rem;
 }
 
 #socials-container {
@@ -349,7 +355,7 @@ a .btn {
 .about-containers,
 .about-details-container {
   display: flex;
-  /* width: 80vw; */
+  flex-wrap: wrap;
 }
 
 .about-pic {
@@ -375,7 +381,7 @@ a .btn {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: auto;
 }
 
 /* EXPERIENCE SECTION */
@@ -454,20 +460,6 @@ a .btn {
   margin: 0;
 }
 
-.experience-sub-title {
-  font-size: 1.5rem;
-  color: #333;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.article h3 {
-  font-size: 1rem;
-  color: #555;
-  margin: 0;
-}
-
 .details-container {
   border: 1px solid #e0e0e0;
   padding: 1.5rem;
@@ -525,7 +517,8 @@ article p {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
+  padding: 2rem 0;
 }
 
 .contact-info-upper-container {
@@ -562,7 +555,8 @@ article p {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: auto;
+  padding: 2rem 1rem;
   margin: 0 1rem;
 }
 
