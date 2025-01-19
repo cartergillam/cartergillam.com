@@ -480,35 +480,81 @@ article p {
 
 #projects {
   position: relative;
+  padding: 2rem 0;
 }
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
-.project-img{
+.project-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
   border-radius: 1rem;
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-  /* height: 25rem; */
-  /* width: 100%; */
-  /* display: block; */
-  margin: auto;
-
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
 }
 
+.project-video {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto 1rem;
+}
+
+.project-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.project-img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
 
 .project-title {
-  margin: 1rem;
+  margin: 1rem 0;
   color: black;
   opacity: .8;
+}
+
+.project-description {
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.project-btn:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.05);
 }
 
 /* CONTACT */
@@ -589,4 +635,46 @@ footer p {
   to {
     opacity: 1;
   }
+}
+
+/* WORK SECTION */
+
+.work-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.work-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+
+.work-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.work-place {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.work-description {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-description li {
+  margin-bottom: 0.5rem;
 }

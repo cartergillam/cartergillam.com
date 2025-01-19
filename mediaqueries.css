@@ -137,12 +137,26 @@
   
     .text-container {
       text-align: justify;
-      margin: none;
+      margin: 0 1rem;
       padding: 0;
     }
   
     #projects {
       margin-bottom: 1rem;
+    }
+
+    .projects-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-item {
+      width: 90%;
+    }
+
+    .work-item {
+      width: 90%;
+      margin: 1rem auto;
     }
   }
 
