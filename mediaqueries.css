@@ -137,7 +137,6 @@
   
     .text-container {
       text-align: justify;
-      margin: 0 1rem;
       padding: 0;
       width: 100%; /* Make the text-container wider */
     }
