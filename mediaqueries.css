@@ -139,6 +139,7 @@
       text-align: justify;
       margin: 0 1rem;
       padding: 0;
+      width: 100%; /* Make the text-container wider */
     }
   
     #projects {
@@ -157,6 +158,10 @@
     .work-item {
       width: 90%;
       margin: 1rem auto;
+    }
+
+    .experience-details-container {
+      margin-bottom: 5rem; /* Reduce the gap */
     }
   }
 
