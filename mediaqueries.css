@@ -135,10 +135,15 @@
       margin-bottom: 2rem;
     }
   
+    .about-details-container {
+      width: 90%; /* Make the about-details-container wider */
+      margin: 0 auto; /* Center the about-details-container */
+    }
+  
     .text-container {
       text-align: justify;
       padding: 0;
-      width: 90%; /* Make the text-container wider */
+      width: 100%; /* Make the text-container wider */
       margin: 0 auto; /* Center the text-container */
     }
   
