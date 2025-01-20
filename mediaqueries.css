@@ -162,15 +162,11 @@
 
     .work-item {
       width: 90%;
-      margin: 1rem auto;
-    }
-
-    .experience-details-container {
-      margin-bottom: 0.5rem; /* Further reduce the gap */
+      margin: 0.5rem auto;
     }
 
     #work {
-      margin-top: 0; /* Remove top margin */
+      margin-top: 0;
     }
   }
 
