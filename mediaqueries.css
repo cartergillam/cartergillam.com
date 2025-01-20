@@ -136,15 +136,15 @@
     }
   
     .about-details-container {
-      width: 90%; /* Make the about-details-container wider */
-      margin: 0 auto; /* Center the about-details-container */
+      width: 100%; 
+      margin: 0 auto;
     }
   
     .text-container {
       text-align: justify;
       padding: 0;
-      width: 100%; /* Make the text-container wider */
-      margin: 0 auto; /* Center the text-container */
+      width: 100%; 
+      margin: 0 auto; 
     }
   
     #projects {
@@ -166,7 +166,7 @@
     }
 
     .experience-details-container {
-      margin-bottom: 2rem; /* Reduce the gap */
+      margin-bottom: 1rem; /* Reduce the gap */
     }
   }
 
