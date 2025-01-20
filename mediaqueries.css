@@ -138,7 +138,8 @@
     .text-container {
       text-align: justify;
       padding: 0;
-      width: 100%; /* Make the text-container wider */
+      width: 90%; /* Make the text-container wider */
+      margin: 0 auto; /* Center the text-container */
     }
   
     #projects {
@@ -160,7 +161,7 @@
     }
 
     .experience-details-container {
-      margin-bottom: 5rem; /* Reduce the gap */
+      margin-bottom: 2rem; /* Reduce the gap */
     }
   }
 
