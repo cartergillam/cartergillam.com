@@ -166,7 +166,11 @@
     }
 
     .experience-details-container {
-      margin-bottom: 1rem; /* Reduce the gap */
+      margin-bottom: 0.5rem; /* Further reduce the gap */
+    }
+
+    #work {
+      margin-top: 0; /* Remove top margin */
     }
   }
 
