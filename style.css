@@ -676,6 +676,24 @@ footer p {
   margin-bottom: 1rem;
 }
 
+.work-video {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto 1rem;
+}
+
+.work-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .work-description {
   list-style: none;
   padding: 0;
