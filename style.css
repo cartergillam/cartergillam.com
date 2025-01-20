@@ -228,13 +228,14 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
   text-align: center;
+  margin-top: 0; /* Remove the top margin */
 }
 
 .title {
   font-size: 3rem;
   text-align: center;
   opacity: .92;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem; /* Reduce the bottom margin */
 }
 
 #socials-container {
