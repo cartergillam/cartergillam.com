@@ -584,6 +584,31 @@ article p {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+  padding: 0.5rem 1rem; /* Add padding */
+  border: 2px solid #333; /* Add border */
+  border-radius: 2rem; /* Add border radius */
+  background-color: white; /* Add background color */
+  transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.contact-info-container:hover {
+  background-color: #333; /* Change background color on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Optional scale effect */
+}
+
+.contact-info-container p {
+  font-size: larger;
+  margin: 0; /* Remove margin */
+}
+
+.contact-info-container a {
+  color: inherit; /* Inherit color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-info-container a:hover {
+  color: inherit; /* Inherit color on hover */
 }
 
 .contact-info-container p {
