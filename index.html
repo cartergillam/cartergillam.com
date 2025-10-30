@@ -1,273 +1,63 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-xmlns:fb="http://ogp.me/ns/fb#">>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Carter Gillam</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Carter Gillam">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cartergillam.com/">
+    <meta property="og:image" content="https://cartergillam.com/assets/projects/personal-portfolio.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <meta property="og:image" content="https://cartergillam.com/assets/projects/personal-portfolio.jpg" />
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Carter Gillam</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="bg-anim" aria-hidden="true"></div>
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="index.html">Carter Gillam</a>
         </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Carter Gillam</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
+    </header>
+    <div class="socials-fixed">
+        <a href="https://www.linkedin.com/in/cartergillam/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://github.com/cartergillam" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="./assets/github.png" alt="GitHub" class="icon">
+        </a>
+    </div>
+    <main id="home">
+        <section id="profile">
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="section__pic-container">
+                <img decoding="async" id="profile1" src="./assets/profile-pic.jpg" alt="Carter Gillam" title="Carter Gillam">
             </div>
-            <div class="menu-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <div class="section__text">
+                <p class="section__text__p1">Hey, I'm</p>
+                <h1 class="title">Carter Gillam</h1>
+                <p class="section__text__p2" aria-live="polite">Software Developer</p>
             </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img decoding="async" id="profile1" src="./assets/profile-pic.jpg" alt="Carter Gillam's profile picture" title="Carter Gillam" />
-        </div>
-        <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Carter Gillam</h1>
-            <p class="section__text__p2">Software Developer</p>
-            <div class="btn-container">
-                <a href="./assets/Carter_Gillam_Resume.pdf" target="_blank" rel="noopener">
-                    <button class="btn btn-color-2">See Resume</button>
-                </a>
-            </div>
-            <div id="socials-container">
-                <a target="_blank" href="https://www.linkedin.com/in/cartergillam/" rel="noopener">
-                    <img decoding="async" src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
-                </a>
-
-                <a target="_blank" href="https://github.com/cartergillam" rel="noopener">
-                    <img decoding="async" src="./assets/github.png" alt="My Github profile" class="icon" />
-                </a>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title" id="aboutTitle">About Me</h1>
-        <div class="section-container">
-
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img decoding="async" src="./assets/experience.png" alt="Experience icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>1.5+ years <br />Frontend/Backend Development</p>
-                    </div>
-                    <div class="details-container">
-                        <img decoding="async" src="./assets/education.png" alt="Education icon" class="icon" />
-                        <h3>Education</h3>
-                        <p>Queen's University<br /></p>
-                        <p>Bachelor of Computing - Software Design Specialization<br /></p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p>
-                        <span class="highlight"></span>
-                        Hey there, I’m <span class="highlight">Carter</span> — an extroverted full-stack developer who stands out by combining technical skills with creativity, strong communication, and leadership. 
-                        <br><br>
-                        Beyond building software, I’ve developed my people skills through experiences like teaching martial arts, acting in major campaigns, and running a successful photography business. 
-                        <br><br>
-                        Whether it’s on set, collaborating with a team, or coding innovative solutions, I thrive in fast-paced environments, connect easily with others, and deliver results. 
-                        <br><br>
-                        My mix of technical expertise and creative experiences helps me approach challenges with a fresh perspective and excel in any project.
-                    </p>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Skills</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Full-Stack Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img decoding="async" src="./assets/python.png" alt="Python Icon" class="icon" />
-                            <h3>Python</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/java.png" alt="Java Icon" class="icon" />
-                            <h3>Java</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/js.png" alt="JavaScript Icon" class="icon" />
-                            <h3>JavaScript</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/html5.png" alt="HTML5 Icon" class="icon" />
-                            <h3>HTML</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/css.png" alt="CSS3 Icon" class="icon" />
-                            <h3>CSS</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/react.png" alt="React Icon" class="icon" />
-                            <h3>React</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/c++.png" alt="C++ Icon" class="icon" />
-                            <h3>C++</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/c-sharp.png" alt="C# Icon" class="icon" />
-                            <h3>C#</h3>
-                        </article>
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Development Tools &amp; Software</h2>
-                    <div class="article-container">
-                        <article>
-                            <img decoding="async" src="./assets/git.png" alt="Git Icon" class="icon" />
-                            <h3>Git</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/github1.png" alt="GitHub Icon" class="icon" />
-                            <h3>GitHub</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/figma.png" alt="Figma Icon" class="icon" />
-                            <h3>Figma</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/vscode.png" alt="VS Code Icon" class="icon" />
-                            <h3>VS Code</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/unity.png" alt="Unity Icon" class="icon" />
-                            <h3>Unity</h3>
-                        </article>
-                        <article>
-                            <img decoding="async" src="./assets/mongo.png" alt="MongoDB Icon" class="icon" />
-                            <h3>MongoDB</h3>
-                        </article>
-                    </div>
+            <div class="orbit" role="navigation" aria-label="Primary categories">
+                <div class="orbit-track">
+                    <a class="chip chip-code" href="code.html" aria-label="Code">
+                        <img src="assets/icons/code.png" alt="">
+                    </a>
+                    <a class="chip chip-film" href="film.html" aria-label="Film">
+                        <img src="assets/icons/film.png" alt="">
+                    </a>
+                    <a class="chip chip-acting" href="acting.html" aria-label="Acting">
+                        <img src="assets/icons/acting.png" alt="">
+                    </a>
+                    <a class="chip chip-vibes" href="vibes.html" aria-label="Vibes">
+                        <img src="assets/icons/hook.png" alt="">
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>    
-    <section id="work">
-        <p class="section__text__p1">My Professional</p>
-        <h1 class="title">Work Experience</h1>
-        <div class="work-details">
-            <div class="work-item">
-                <img src="./assets/FCMA_LOGO.png" alt="First Choice Martial Arts Logo" class="work-logo" />
-                <h2 class="work-title">Full-Stack Web Developer</h2>
-                <p class="work-place">First Choice Martial Arts - Contract/Part-Time</p>
-                <p class="work-place">Hamilton, Ontario</p>
-                <div class="work-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5vGDpXwmIgk?si=_iY7I_sEj1eHpGBZ" title="Experience Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <ul class="work-description">
-                    <li>Developed a user/class management system (Flask, MongoDB), currently in <b>early alpha,</b> enabling parents/students to manage schedules and attendance.</li>
-                    <li>Built a dynamic UI using <b>JavaScript, HTML, and CSS</b>, featuring a responsive calendar (via <b>Flatpickr</b>) for admins and users.</li>
-                    <li>Implemented secure <b>RESTful APIs</b> for authentication, class scheduling, and booking, with <b>JWT</b> handling session management.</li>
-                    <li>Currently conducting <b>alpha testing</b> to identify and resolve bugs, prioritizing reliability through robust error handling and data validation.</li>
-                </ul>
-                <div class="project-links">
-                    <a href="https://github.com/cartergillam/FCMA" target="_blank" class="btn project-btn">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="projects-container">
-            <div class="project-item">
-                <div class="project-video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3o7TZr2uK3s?si=FVQBnTWOAv5m2-sm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <h2 class="project-title">Palette Hero</h2>
-                <div class="project-description" style="text-align: center;">
-                    <p>Jump, dash, and switch shoe colors to navigate through vibrant, shifting blocks, all while avoiding getting stuck in the middle of the action!</p>
-                    <p>Led project planning and created a unique movement system, implementing 10+ gameplay systems (character/mob movement, menu scripts, terrain/camera control).</p>
-                    <p>Designed and integrated custom sprites and animations, promoting iterative testing to refine mechanics.</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/cartergillam/PaletteHero" target="_blank" class="btn project-btn">GitHub</a>
-                </div>
-            </div>
-            <div class="project-item">
-                <img src="./assets/projects/flight-booking.jpg" alt="Flight Search Booking System" class="project-img">
-                <h2 class="project-title">Flight Search Booking System</h2>
-                <div class="project-description" style="text-align: center;">
-                    <p>A responsive application for searching and booking flights with real-time database updates.</p>
-                    <p>Converted Figma UI/UX designs into responsive HTML/CSS and built a Flask backend with MongoDB for user and booking data.</p>
-                    <p>Conducted code coverage, integration, and E2E tests to ensure reliability, maintaining collaborative development with Git/GitHub.</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/cartergillam/Flight-Booking" target="_blank" class="btn project-btn">GitHub</a>
-                </div>
-            </div>
-            <div class="project-item">
-                <img src="./assets/projects/personal-portfolio.jpg" alt="Personal Portfolio Website" class="project-img">
-                <h2 class="project-title">Personal Portfolio Website</h2>
-                <div class="project-description" style="text-align: center;">
-                    <p>A fully responsive portfolio to showcase projects and experience.</p>
-                    <p>Created a modern interface using HTML and CSS, optimized for all devices with media queries.</p>
-                    <p>Deployed to GitHub Pages with continuous updates for streamlined version control.</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/cartergillam/cartergillam.com" target="_blank" class="btn project-btn">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img decoding="async" src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:gillamcarter@gmail.com">gillamcarter@gmail.com</a></p>
-            </div>
-            <div class="contact-info-container">
-                <img decoding="async" src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p><a target="_blank" href="https://www.linkedin.com/in/cartergillam/" rel="noopener">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-
-
+        </section>
+    </main>
     <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2024 @Carter Gillam. All Rights Reserved.</p>
+        <!-- Icon credits: code.svg by Royyan Wijaya, film.svg by Good Ware, acting.svg by meaicon, hook.svg by Freepik (all via Flaticon). -->
+        <p>&copy; 2024 Carter Gillam. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
